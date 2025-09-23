@@ -1,6 +1,11 @@
 # Ignore everything
 *
 
-# But not these:
+# Allow subdirectories so we can un-ignore files inside them
+!*/
+
+# Allow only .c files
 !*.c
-!.gitignore   # (optional, keep the .gitignore itself tracked)
+
+# Keep the .gitignore itself tracked
+!.gitignore
