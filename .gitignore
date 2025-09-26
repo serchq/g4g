@@ -4,8 +4,9 @@
 # Allow subdirectories so we can un-ignore files inside them
 !*/
 
-# Allow only .c files
+# Allow only .c and header files
 !*.c
+!*.h
 
 # Keep the .gitignore itself tracked
 !.gitignore
